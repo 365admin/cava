@@ -2,7 +2,11 @@ module github.com/365admin/cava
 
 go 1.21
 
-require github.com/kamva/mgm/v3 v3.5.0
+require (
+	github.com/kamva/mgm/v3 v3.5.0
+	github.com/spf13/cobra v1.8.0
+	
+)
 
 require (
 	github.com/Azure/go-autorest v14.2.0+incompatible // indirect
@@ -31,7 +35,6 @@ require (
 	github.com/sourcegraph/conc v0.3.0 // indirect
 	github.com/spf13/afero v1.11.0 // indirect
 	github.com/spf13/cast v1.6.0 // indirect
-	github.com/spf13/cobra v1.8.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	github.com/subosito/gotenv v1.6.0 // indirect
 	go.uber.org/atomic v1.9.0 // indirect
@@ -45,24 +48,19 @@ require (
 )
 
 require (
-	github.com/atotto/clipboard v0.1.4
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc // indirect
-	github.com/go-stack/stack v1.8.0 // indirect
 	github.com/golang/snappy v0.0.3 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/klauspost/compress v1.17.0 // indirect
 	github.com/koltyakov/gosip v0.0.0-20231220150131-60203a6b7c36
-	github.com/pkg/errors v0.9.1 // indirect
 	github.com/pmezard/go-difflib v1.0.1-0.20181226105442-5d4384ee4fb2 // indirect
-	github.com/spf13/cobra-cli v1.3.0
 	github.com/spf13/viper v1.18.2
-	github.com/stretchr/testify v1.8.4 // indirect
+	github.com/stretchr/testify v1.8.4
 	github.com/xdg-go/pbkdf2 v1.0.0 // indirect
 	github.com/xdg-go/scram v1.1.2 // indirect
 	github.com/xdg-go/stringprep v1.0.4 // indirect
 	github.com/youmark/pkcs8 v0.0.0-20181117223130-1be2e3e5546d // indirect
-	go.mongodb.org/mongo-driver v1.13.1 // indirect
-	golang.design/x/clipboard v0.7.0
+	go.mongodb.org/mongo-driver v1.13.1
 	golang.org/x/crypto v0.17.0 // indirect
 	golang.org/x/sync v0.5.0 // indirect
 	golang.org/x/text v0.14.0 // indirect
